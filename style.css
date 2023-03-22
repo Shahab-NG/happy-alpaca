@@ -1,0 +1,27 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5;
+  --red: #dc2626;
+  --grau: #71717a;
+}
+.main-header {
+  height: 50px;
+  background-color: #f8fafc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-rigth ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+.nav-rigth a {
+  text-decoration: none;
+  margin: 0.5em;
+  color: #94a3b8;
+}
