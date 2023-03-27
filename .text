@@ -1,0 +1,80 @@
+      <!-- <form>
+        
+       <div class="name">
+        <div class="first-name">
+          <label for="fname">First Name </label>
+        </div>
+        <div class="placehoder">
+          <input type="text" class="input"  name="firstname" id="fname"  placeholder="Your name...">
+        </div>
+       </div>
+       <div class="name">
+        <div class="lastname">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" class="input" name="lastname" placeholder=" Your lastname ..." >
+        </div>
+       </div>
+<div class="name">
+  <textarea name="subject" id="subject" cols="30" rows="10" placeholder="Write something.." ></textarea>
+</div>
+<br>
+<div class="name">
+  <input type="submit" class="submit" value="Submit">
+  
+</div>
+
+
+        </form> -->
+
+
+
+        .container-contact{
+            width: 50%;
+            background-color: gray;
+            padding: 20px;
+        }
+        
+        .input, textarea{
+            width: 100%;
+            padding: 10px;
+            border: 2px solid;
+            border-radius: 5px;
+            /* resize: vertical; */
+        
+        }
+        label {
+            padding: 10px 10px 12px 0;
+            display: inline-block;
+        }
+        
+        .submit{
+            background-color: rgb(200, 90, 90);
+            color: aliceblue;
+            padding:10px 20px; 
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        
+        }
+        
+        .submit:hover{
+            background-color: #ff8000;
+        
+        }
+        
+        
+        
+        .container-contact{
+            border-radius: 8px;
+            background-color: #c97500;
+            padding: 25px ;
+        }
+        @media screen and (max-width: 600px) {
+            .lastname, .name, .input{
+              width: 100%;
+              margin-top: 0;
+            }
+          }
+          .name {
+            padding-bottom: 20px;
+          }
